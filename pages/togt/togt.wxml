@@ -1,0 +1,12 @@
+<!--pages/togt/togt.wxml-->
+<view style="padding-top:{{someData.statusBarHeight+someData.titleBarHeight}}px">
+  <view class="hh-header">
+    <view class="status-bar" style="height:{{someData.statusBarHeight}}px"></view>
+    <view class="title-bar" style="height:{{someData.titleBarHeight}}px">
+      <view wx:if="{{isShowBack=='true'&&innerTitle!=='中数美创'&&innerTitle!=='我的'&&innerTitle!=='数据'&&innerTitle!=='客户'}}" class='hh-nav-back ico-back1' bindtap='goback'></view>
+      <view class="hh-title">{{innerTitle}}</view>
+      <view class="hh-nav-right"></view>
+    </view>
+  </view>
+</view>
+<slot></slot>

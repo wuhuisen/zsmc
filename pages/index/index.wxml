@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+      <view wx:for="{{10}}">
+        <image  src="../../image/shou1.png"/>
+        <view >
+          <view >
+            <image  />
+            <view >
+              <text >恒大悦龙台</text>
+              <text >1000-5000元/m*2</text>
+              <text >3-4室 套内102-148m*2</text>
+            </view>
+           <button >
+           <image  src="../../image/shou2.png"/>
+           <text>分享</text>
+           </button>
+          </view>
+          <view >
+            <text >访问量:312312</text>
+            <view >
+              <image wx:for="{{5}}" src="https://dss0.baidu.com/73t1bjeh1BF3odCf/it/u=603381437,1829476875&fm=85&s=EBDC1FD042317D8E62346840030070F0" />
+            </view>
+          </view>
+        </view>
+
+      </view>
+  </view>
+</view>

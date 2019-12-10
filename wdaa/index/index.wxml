@@ -1,0 +1,7 @@
+<!--wdaa/index/index.wxml-->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+      
+  </view>
+</view>
