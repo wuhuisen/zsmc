@@ -1,22 +1,13 @@
-// wdaa/index/index.js
+// wdaa/erm/erm.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title: '我的',
+    title: '我的二维码',
   },
-faA(){
-  wx.navigateTo({
-    url:'../../wdaa/erm/erm'
-  })
-},
-faB(){
-  wx.navigateTo({
-    url:'../../wdaa/wdxm/wdxm'
-  })
-},
+
   /**
    * 生命周期函数--监听页面加载
    */

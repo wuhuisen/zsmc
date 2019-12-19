@@ -1,11 +1,11 @@
-/**index.wxss**/
+/* wdaa/wdxm/wdxm.wxss */
 .content>view{
     width: 100%;
     height: 600rpx;
     /* box-shadow:0  0 5px #ccc; */
     border-radius:10px;
     position: relative;
-    margin-bottom: 70rpx;
+    margin-bottom: -20rpx;
 }
 .content>view>image{
     width: 100%;
@@ -13,7 +13,7 @@
 }
 .content>view>view{
     width: 100%;
-    height: 230rpx;
+    height: 156rpx;
     border-radius:10px;
     box-shadow:0  0  5px #ccc;
     padding: 10rpx 40rpx 0rpx 40rpx;
@@ -35,7 +35,7 @@
     border: 1px solid #ccc;
 }
 .content>view>view>view:nth-of-type(1)>view{
-    width: 400rpx;
+    width: 300rpx;
     height: 100%;
     padding: 20rpx 0 0 20rpx ;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ line-height: 44rpx;
     font-size: 22rpx;
 }
 .content>view>view>view:nth-of-type(1)>button{
-    width:140rpx;
+    width:260rpx;
     height:48rpx;
     color: #fff;
     background:linear-gradient(90deg,rgba(133,170,242,1),rgba(57,115,230,1));

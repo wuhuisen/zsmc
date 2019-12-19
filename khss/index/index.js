@@ -6,8 +6,18 @@ Page({
    */
   data: {
     title: '客户',
+    bsys:true
   },
-
+faA(){
+this.setData({
+  bsys:!this.data.bsys
+})
+},
+faB(){
+  wx.navigateTo({
+    url:'../../khss/xhxq/xhxq'
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */

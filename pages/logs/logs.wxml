@@ -1,6 +1,57 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<!-- logs.wxml -->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+    <view>
+      <view>
+        <image src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2613286700,2153536478&fm=26&gp=0.jpg" />
+        <view>
+          <text>李晓梅</text>
+          <text>155384789</text>
+        </view>
+        <view>
+          <image src="../../image/xq1.png" />
+          <image src="../../image/xq2.png" />
+          <view>
+            <image src="../../image/shou2.png" />
+            <text>分享</text>
+          </view>
+        </view>
+      </view>
+      <view>
+        <image src="../../image/xq3.png" />
+      </view>
+    </view>
+    <view>
+      <view>
+        <view>
+          <text>恒大悦龙台</text>
+          <text>3-4室 套内102-488m*2</text>
+          <text>售价<text style="font-size:36rpx;font-family:DIN Alternate;font-weight:bold;color:rgba(237,90,90,1)">1000-15000元/m*2</text></text>
+        </view>
+        <view>
+          <image src="https://dss0.baidu.com/73F1bjeh1BF3odCf/it/u=1863361218,552971186&fm=85&s=7E3E3BC344671D154B2CE6B90300E095" />
+        </view>
+      </view>
+      <view>
+        <text>访问量：21313</text>
+        <view>
+          <image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3543529225,228673964&fm=26&gp=0.jpg" />
+        </view>
+      </view>
+    </view>
+    <view>
+      <text>主力户型</text>
+      <view>
+        <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true' style="width:100%">
+          <block wx:for="{{bnrUrl}}" wx:for-index="index">
+            <swiper-item class="swiper1">
+              <image src='{{item.url}}' class='imagew1' ></image>
+              <text >3室2厅1卫 188m*2</text>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
 </view>

@@ -2,6 +2,32 @@
 <view class="comion">
   <component-topnav inner-title="{{title}}"></component-topnav>
   <view class="content ">
-      
+      <view >
+        <view class="{{bsys==true?'avise':''}}" bindtap='faA'>访客</view>
+        <view class="{{bsys!==true?'avise':''}}" bindtap='faA'>意向客户</view>
+        <image src="../../image/sousuo.png" />
+        <input  placeholder="输入用户名称搜索"/>
+      </view>
+      <view >
+        <view ><text >全部客户</text></view>
+        <view >
+          <text >选择楼盘</text>
+          <image  src="../../image/kh1.png"/>
+        </view>
+      </view>
+      <view class="kha1" wx:for="{{5}}" wx:key='index' bindtap='faB'>
+        <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3095771832,4259211458&fm=26&gp=0.jpg" />
+        <view >
+          <text >徐宝</text>
+          <text >浏览次数：1</text>
+          <text >联系电话：15538459878</text>
+          <text >最近访问时间：2019-2-01</text>
+        </view>
+        <view >
+          <image src="../../image/kh2.png" />
+          <text >中海九号公馆</text>
+        </view>
+      </view>
+     
   </view>
 </view>

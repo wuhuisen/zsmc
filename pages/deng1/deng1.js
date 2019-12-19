@@ -1,20 +1,16 @@
-// wdaa/index/index.js
+// pages/deng1/deng1.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title: '我的',
+    title: '申请',
   },
 faA(){
-  wx.navigateTo({
-    url:'../../wdaa/erm/erm'
-  })
-},
-faB(){
-  wx.navigateTo({
-    url:'../../wdaa/wdxm/wdxm'
+  console.log(1)
+  wx.switchTab({
+    url:'../../pages/index/index'
   })
 },
   /**

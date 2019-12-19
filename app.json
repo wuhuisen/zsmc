@@ -1,9 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/deng1/deng1",
     "wdaa/index/index",
+    "pages/index/index",
     "khss/index/index",
+    "khss/xhxq/xhxq",
+    "pages/logs/logs",
+    "wdaa/erm/erm",
+    "wdaa/wdxm/wdxm",
     "shdd/index/index"
   ],
   "window": {

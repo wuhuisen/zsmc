@@ -1,0 +1,49 @@
+/* pages/deng1/deng1.wxss */
+.content>view:nth-of-type(1){
+    width: 100%;
+    height: 960rpx;
+    padding: 40rpx 20rpx 40rpx 20rpx;
+    box-sizing: border-box;
+    box-shadow: -2rpx -2rpx 15rpx #ccc;
+    border-radius:16rpx;
+}
+.content>view:nth-of-type(1)>view:nth-of-type(1){
+    width: 100%;
+    height: 180rpx;
+    font-size:28rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(51,51,51,1);
+}
+.content>view:nth-of-type(1)>view:nth-of-type(2){
+    width: 100%;
+    height: 250rpx;
+}
+.content>view:nth-of-type(1)>view:nth-of-type(2)>view{
+    width: 100%;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    border-bottom: 1rpx solid hsla(0, 0%, 87%, 1);
+}
+.content>view:nth-of-type(1)>view:nth-of-type(2)>view>text{
+    width: 130rpx;
+}
+.content>view:nth-of-type(1)>button{
+    width: 100% !important;
+    height: 110rpx !important;
+    background:rgba(73,135,242,1) !important;
+    border-radius:16rpx !important;
+    color: #fff;
+    font-size: 26rpx !important;
+    line-height: 110rpx !important;
+    font-weight: 500;
+}
+.content>view:nth-of-type(1)>image{
+    width: 106%;
+    margin-left: -20rpx;
+    height: 380rpx;
+
+}
+
+

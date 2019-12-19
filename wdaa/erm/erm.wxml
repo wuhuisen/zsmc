@@ -1,0 +1,13 @@
+<!--wdaa/erm/erm.wxml-->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+      <view >
+          <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3095771832,4259211458&fm=26&gp=0.jpg" />
+          <text >马晓其</text>
+          <text >置业顾问</text>
+          <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3571247474,3876995370&fm=26&gp=0.jpg" />
+      </view>
+      <text >点击更换二维码</text>
+  </view>
+  </view>

@@ -1,0 +1,21 @@
+<!--pages/deng1/deng1.wxml-->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+      <view >
+          <view >填写申请材料</view>
+          <view >
+              <view >
+                   <text >姓名</text>
+                   <input placeholder="请输入真实姓名"/>
+              </view>
+             <view >
+                   <text >手机号</text>
+                   <input placeholder="请输入手机号码"/>
+              </view>
+          </view>
+         <button  bindtap='faA'>点击申请</button>
+         <image  src="../../image/bjt.png" />
+      </view>
+  </view>
+</view>

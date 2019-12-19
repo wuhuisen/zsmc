@@ -1,0 +1,44 @@
+<!--khss/xhxq/xhxq.wxml-->
+<view class="comion">
+  <component-topnav inner-title="{{title}}"></component-topnav>
+  <view class="content ">
+      <view >
+          <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576051430813&di=4dee9670fb673a5827d3b674745f02bf&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F0%2F57c140fdb56a6.jpg" />
+          <view >
+              <text >徐宝</text>
+              <text >地区：北京</text>
+              <text >电话号码：1853777212</text>
+              <text >分享次数：1</text>
+          </view>
+          <view >
+              <view >
+              <image src="../../image/khxq3.png" /><text >意向客户</text>
+              </view>
+              <view >
+              <image src="../../image/khxq1.png" /><text >打电话</text>
+              </view>
+              <view >
+              <image src="../../image/khxq2.png" /><text >发消息</text>
+              </view>
+          </view>
+      </view>
+      <view >
+          <text >最近一周</text>
+          <view wx:for="{{3}}" wx:for-item="item" wx:key="key">
+              <text >1</text>
+              <text >11-30 20:12</text>
+              <text >分享连接</text>
+              <text >停留29分钟</text>
+          </view>
+      </view>
+       <view >
+          <text >更早</text>
+          <view wx:for="{{7}}" wx:for-item="item" wx:key="key">
+              <text >1</text>
+              <text >11-30 20:12</text>
+              <text >分享连接</text>
+              <text >停留29分钟</text>
+          </view>
+      </view>
+  </view>
+  </view>

@@ -2,7 +2,64 @@
 <view class="comion">
   <component-topnav inner-title="{{title}}"></component-topnav>
   <view class="content ">
-      
+    <view >
+       <view >
+         <text >/次/人</text>
+         <text >访问次数</text>
+         <text >访问人数</text>
+         <text >分享数量</text>
+       </view>
+        <view >
+         <text >今日</text>
+         <text >20</text>
+         <text >12</text>
+         <text >15</text>
+       </view>
+        <view >
+         <text >本周</text>
+         <text >33</text>
+         <text >55</text>
+         <text >77</text>
+       </view>
+        <view >
+         <text >本月</text>
+         <text >21</text>
+         <text >55</text>
+         <text >77</text>
+       </view>
+    </view>
+    <view >
+
+     <canvas canvas-id="canvas1" class="canvas1" >
+       <canvas canvas-id="canvas2" class="canvas2" >
+        <canvas canvas-id="canvas3" class="canvas3" >
+        <canvas canvas-id="canvas4" class="canvas4" >
+          <canvas canvas-id="canvas5" class="canvas5" >
+       
+     </canvas>
+     </canvas>
+     </canvas>
+     </canvas>
+     </canvas>
+    </view>
+    <view >
+      <view >访问来源</view>
+       <canvas canvas-id="canvas6" class="canvas6" >
+       
+       </canvas>
+    </view>
+    <view >
+       <view >周访问趋势</view>
+       <canvas canvas-id="canvas7" class="canvas7" >
+       
+       </canvas>
+    </view>
+     <view >
+       <view >每日分享统计</view>
+       <canvas canvas-id="canvas8" class="canvas8" >
+       
+       </canvas>
+    </view>
   </view>
 </view>
 
